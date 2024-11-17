@@ -10,7 +10,7 @@
     background-color: white;
 }
 
-/* BODY */
+/* PRIMO BLOCCO*/
 
 body {
     background-color: #d6c7d6;
@@ -20,6 +20,55 @@ main {
     background-color: white;
     width: 1000px;
     margin: 10px auto;
-    border-radius: 10px;
-    padding: 10px 50px 50px 50px;
+    border-radius: 4px;
+    padding: 10px 15px 15px 40px;
+}
+
+
+.border-task {
+    border: 1px solid rgb(162, 158, 158);
+    border-radius: 4px;
+    padding: 3px 10px 3px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#color-add-task {
+    background-color: rgb(122, 189, 248);
+}
+
+/* SECONDO BLOCCO */
+
+section {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    border-radius: 4px;
+    padding: 40px 15px 15px 40px
+}
+
+.title-list {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+}
+
+.to-do-item-icon {
+    margin-top: 8px;
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.to-do-item-text {
+    display: inline;
+}
+
+.to-do-item-tag {
+    
 }
