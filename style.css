@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -19,7 +20,7 @@ body {
 main {
     background-color: white;
     width: 1000px;
-    margin: 10px auto;
+    margin: 10px auto 1px auto;
     border-radius: 4px;
     padding: 10px 15px 15px 40px;
 }
@@ -29,7 +30,6 @@ main {
     border: 1px solid rgb(162, 158, 158);
     border-radius: 4px;
     padding: 3px 10px 3px 10px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
 }
 
@@ -47,13 +47,17 @@ section {
     padding: 40px 15px 15px 40px
 }
 
+.list-class {
+    padding-bottom: 30px;
+}
+
 .title-list {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(60, 60, 60);
+    color: rgb(77, 77, 77);
     font-weight: bold;
 }
 
 .to-do-item-icon {
+    font-size: small;
     margin-top: 8px;
     display: inline-block;
     color: green;
@@ -65,10 +69,46 @@ section {
     line-height: 20px;
 }
 
+.to-do-item-icon-cross {
+    font-size: small;
+    margin-top: 8px;
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
 .to-do-item-text {
     display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: small;
 }
 
 .to-do-item-tag {
-    
+    background-color: cornflowerblue;
+    color: white;
+    font-size: xx-small;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#q-goals-tag {
+    background-color: orange;
+}
+
+#recruiting-tag {
+    background-color: rgb(148, 205, 62);
+}
+
+#website-tag {
+    background-color: pink;
+}
+
+#sales-tag {
+    background-color: coral;
 }
